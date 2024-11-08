@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Mahasiswa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Data Mahasiswa</h1>
+
+        <!-- Form untuk Menambahkan Data Mahasiswa -->
+        <form id="form-mahasiswa">
+            <input type="text" id="nama" placeholder="Nama" required>
+            <input type="text" id="nim" placeholder="NIM" required>
+            <input type="number" step="0.01" id="ipk" placeholder="IPK" required>
+            <button type="submit">Tambah Mahasiswa</button>
+        </form>
+
+        <!-- Daftar Mahasiswa -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>NIM</th>
+                    <th>IPK</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody id="mahasiswa-list">
+                <!-- Data mahasiswa akan dimuat di sini -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
