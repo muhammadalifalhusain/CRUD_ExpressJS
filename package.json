@@ -1,16 +1,14 @@
 {
-  "name": "crud-mahasiswa",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "express": "^4.21.1",
-    "fs": "^0.0.1-security"
-  }
+    "name": "crud_mahasiswa",
+    "version": "1.0.0",
+    "description": "Simple CRUD application for student data",
+    "main": "data/index.js",
+    "scripts": {
+        "start": "node data/index.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5"
+    }
 }
