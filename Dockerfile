@@ -1,7 +1,7 @@
 # Gunakan image Node.js
 FROM node:14
 
-# Buat direktori kerja
+# Buat direktori 
 WORKDIR /usr/src/app
 
 # Salin file package.json dan package-lock.json
